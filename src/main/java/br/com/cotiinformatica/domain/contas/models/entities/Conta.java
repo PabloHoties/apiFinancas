@@ -32,7 +32,7 @@ public class Conta {
 	@Column(name = "data", nullable = false)
 	private Date data;
 	
-	@Column(name = "preco", precision = 10, scale = 2, nullable = false)
+	@Column(name = "preco", nullable = false)
 	private Double preco;
 	
 	@Enumerated(EnumType.STRING)
