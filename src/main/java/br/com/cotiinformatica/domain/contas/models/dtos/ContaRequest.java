@@ -21,7 +21,7 @@ public class ContaRequest {
 
 	@NotNull(message = "Informe o valor da conta.")
 	@Min(value = 0, message = "Informe o valor da conta maior ou igual a zero.")
-	private Double valor;
+	private Double preco;
 
 	@Pattern(regexp = "^(PAGAR|RECEBER)$", message = "Informe somente as opções 'PAGAR' ou 'RECBER'.")
 	@NotEmpty(message = "Informe o tipo da conta.")

@@ -11,7 +11,7 @@ public class ContaResponse {
 	private Integer id;
 	private String nome;
 	private Date data;
-	private Double valor;
+	private Double preco;
 	private String tipo;
 	private CategoriaResponse categoria;
 }
